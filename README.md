@@ -1,6 +1,5 @@
 # Cod Tech IT Solutions Task:
 1. Text-Based Adventure Game: done
 2. Password Generator: done
-3. Quiz Application: 
-4. Web Scraper: 
-5. Data Visualization with Matplotlib: 
+3. Quiz Application: done ( Desktop/3_quizappflask)
+
