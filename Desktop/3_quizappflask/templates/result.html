@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Result</title>
+    <style>
+        body {
+            font-family: Times, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #ff4d4d;
+        }
+        .score {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Result</h1>
+        <div class="score">
+            <p>Your score: {{ score }} out of 5</p>
+             <p>Percentage score: {{ percentage_score }}%</p>
+        </div>
+    </div>
+</body>
+</html>
